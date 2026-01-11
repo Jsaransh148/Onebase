@@ -1,0 +1,26 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "BASE"
+theme = "PaperMod"
+subtitle = "Coming soon to Indore"
+
+[params]
+  defaultTheme = "dark"
+  disableThemeToggle = true
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowFooter = true
+  ShowPoweredBy = false
+  customJS = ["js/typing.js"]
+[menu]
+
+  [[menu.main]]
+    name = "Book Class"
+    url = "/join/"
+    weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

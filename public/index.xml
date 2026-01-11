@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>BASE</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on BASE</description>
+    <generator>Hugo -- 0.154.2</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hi, I’m &lt;strong&gt;Saransh Jain&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I’ve been lifting on and off for over &lt;strong&gt;10 years&lt;/strong&gt;. Like many people, my early years were spent training without much structure. Lifting weights, but without truly understanding &lt;em&gt;why&lt;/em&gt; I was doing what I was doing.&lt;/p&gt;
+&lt;p&gt;That changed when I came across &lt;strong&gt;StrongLifts 5×5&lt;/strong&gt;&lt;br&gt;
+(&lt;a href=&#34;https://stronglifts.com/stronglifts-5x5/)&#34;&gt;https://stronglifts.com/stronglifts-5x5/)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For the first time, I was introduced to &lt;strong&gt;compound lifts&lt;/strong&gt; and a simple, disciplined approach to training.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lift heavy.&lt;/li&gt;
+&lt;li&gt;Train three days a week.&lt;/li&gt;
+&lt;li&gt;Rest on the others.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It worked — and it worked consistently. For raw strength, it remains one of the best and simplest training programs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>http://localhost:1313/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/faq/</guid>
+      <description>Frequently asked questions about BASE Strength Lab</description>
+    </item>
+    <item>
+      <title>Pricing</title>
+      <link>http://localhost:1313/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pricing/</guid>
+      <description>&lt;p&gt;Simple, transparent pricing.&lt;br&gt;
+No long-term lock-ins. No gimmicks.&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&#34;pricing-cards&#34;&gt;
+  &lt;div class=&#34;pricing-card&#34;&gt;
+    &lt;h3&gt;Monthly Membership&lt;/h3&gt;
+    &lt;p class=&#34;price&#34;&gt;₹ 3,999 / month&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;pricing-card&#34;&gt;
+    &lt;h3&gt;Trial Session&lt;/h3&gt;
+    &lt;p class=&#34;price&#34;&gt;₹ 499 for 3 sessions&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;not-sure-what-to-choose&#34;&gt;Not sure what to choose?&lt;/h3&gt;
+&lt;p&gt;Get in touch and we’ll do our best.&lt;/p&gt;
+&lt;p&gt;📞 +91 - 7899254254&lt;br&gt;
+📧 &lt;a href=&#34;mailto:hello@onebase.fit&#34;&gt;hello@onebase.fit&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What we do</title>
+      <link>http://localhost:1313/what-we-do/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-we-do/</guid>
+      <description>&lt;p&gt;Base is built on a simple idea — &lt;strong&gt;strength is the foundation of everything you do&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;We focus on structured, intelligent strength training that helps you move better,
+feel stronger, and stay active for the long term.&lt;/p&gt;
+&lt;p&gt;This is not about quick fixes or shortcuts.
+It’s about consistency, good coaching, and sustainable progress.&lt;/p&gt;
+&lt;h3 id=&#34;who-this-is-for&#34;&gt;Who this is for&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;People who want to build real strength&lt;/li&gt;
+&lt;li&gt;Anyone looking to stay active and injury-free&lt;/li&gt;
+&lt;li&gt;Beginners and experienced trainees alike&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;our-approach&#34;&gt;Our approach&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Small group sessions&lt;/li&gt;
+&lt;li&gt;Emphasis on form and movement quality&lt;/li&gt;
+&lt;li&gt;Progressive strength training&lt;/li&gt;
+&lt;li&gt;Long-term health over short-term results&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

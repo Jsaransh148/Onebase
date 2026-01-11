@@ -1,0 +1,292 @@
+/* ==================================================
+   GLOBAL BASE + FLOWY BACKGROUND (PaperMod-safe)
+   ================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+html, body {
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: 0.2px;
+
+  background:
+    radial-gradient(1200px 600px at 10% 10%, rgba(238, 10, 44, 0.28), transparent 40%),
+    radial-gradient(1000px 500px at 90% 20%, rgba(88, 28, 40, 0.25), transparent 45%),
+    radial-gradient(800px 400px at 50% 80%, rgba(40, 40, 40, 0.35), transparent 50%),
+    #000000 !important;
+}
+
+/* ==================================================
+   TYPOGRAPHY
+   ================================================== */
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0.6em;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.6em;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.35;
+  margin-bottom: 0.5em;
+}
+
+p,
+li {
+  font-size: 1rem;
+  line-height: 1.65;
+  margin-bottom: 0.75em;
+}
+
+a {
+  font-weight: 500;
+}
+
+/* Prevent overflow */
+p, h1, h2, h3, h4, a {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ==================================================
+   HEADER CTA (JOIN BUTTON)
+   ================================================== */
+
+a[href$="/join/"] {
+  background-color: #6b1f2b !important;
+  border-radius: 9999px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  margin-top: 16px !important;
+
+}
+
+a[href$="/join/"] span {
+  color: #ffffff !important;
+  padding: 10px 24px !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  display: inline-block !important;
+}
+
+a[href$="/join/"]:hover {
+  background-color: #571822 !important;
+}
+
+/* ==================================================
+   HERO
+   ================================================== */
+
+.hero-title {
+  text-align: center;
+}
+
+/* ==================================================
+   TOP TEXT LINKS
+   ================================================== */
+
+.top-links {
+  text-align: center;
+  margin-bottom: 32px;
+  
+}
+
+.top-links a {
+  text-decoration: none;
+}
+
+/* ==================================================
+   PRICING CARDS
+   ================================================== */
+
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 32px;
+  max-width: 900px;
+  margin: 48px auto;
+}
+
+.pricing-card {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.pricing-card h3 {
+  margin-bottom: 8px;
+}
+
+.pricing-card .price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.pricing-card ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 16px 0;
+}
+
+.pricing-card li {
+  margin: 8px 0;
+}
+
+/* ==================================================
+   BOTTOM CONTACT (DESKTOP)
+   ================================================== */
+
+.contact-bottom {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+  z-index: 9999;
+
+  display: flex;
+  gap: 40px;
+  padding: 18px 22px;
+}
+
+.contact-left,
+.contact-right {
+  min-width: 220px;
+}
+
+.contact-bottom h2 {
+  margin: 0 0 8px 0;
+}
+
+.contact-bottom p {
+  margin: 4px 0;
+}
+
+/* ==================================================
+   GLOBAL SAFETY
+   ================================================== */
+
+*:not(input):not(textarea):not(select) {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* ==================================================
+   MOBILE OPTIMISATION
+   ================================================== */
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 1.9rem;
+    line-height: 1.25;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .top-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .top-links a {
+    font-size: 0.95rem;
+  }
+
+  .pricing-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 16px;
+  }
+
+  .pricing-card {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .pricing-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .pricing-card .price {
+    font-size: 1.05rem;
+  }
+
+  .contact-bottom {
+    position: static !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 20px 12px;
+  }
+
+  .contact-bottom h2 {
+    font-size: 0.85;
+    margin-bottom: 6px;
+  }
+
+  .contact-bottom p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .map-bottom-right {
+    position: static !important;
+    width: 100%;
+    margin: 24px 0;
+  }
+
+  .map-bottom-right iframe {
+    height: 220px;
+  }
+}
+
+/* ==================================================
+   ULTRA-SMALL PHONES
+   ================================================== */
+
+@media (max-width: 360px) {
+  .contact-bottom {
+    grid-template-columns: 1fr;
+  }
+}
+  
+/* Typing effect for PaperMod subtitle */
+.profile-mode .subtitle {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid rgba(255,255,255,0.6);
+  width: 0;
+  animation:
+    typing 3s steps(22, end) forwards,
+    blink 0.8s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 22ch }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
